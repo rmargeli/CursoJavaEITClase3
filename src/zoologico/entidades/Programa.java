@@ -3,22 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zoologico;
+package zoologico.entidades;
+
+import java.util.Date;
 
 public class Programa {
-    
-    public void crearZoo(){
-        Zoologico zoo = new Zoologico();
-    }
     
     public void abrirZoo(Zoologico z){
         z.abrirZoo();
     }
     
     public void cerrarZoo(Zoologico z){
-        z.cerrarZoo();
-        
+        z.cerrarZoo();        
     }
+    
+      public static void main(String[] args){
+          Zoologico z = new Zoologico();                    
+          z.abrirZoo();    
+          z.alimentarAnimales(100);
+          z.cerrarZoo();   
+          
+      }
     
     
     

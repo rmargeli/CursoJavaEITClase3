@@ -3,14 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zoologico;
+package zoologico.entidades;
 
 import java.util.Date;
 
-/**
- *
- * @author educacionit
- */
 public abstract class Persona {
     private String nombre;
     private Date fechaNac;
